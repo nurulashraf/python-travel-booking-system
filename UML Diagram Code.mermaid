@@ -1,0 +1,59 @@
+classDiagram
+    class Destination {
+        -name: string
+        -transport_cost: float
+        -base_accommodation_cost: float
+        +calculate_base_cost()
+        +get_transport_cost()
+        +get_accommodation_cost()
+        +set_transport_cost(new_cost)
+        +set_accommodation_cost(new_cost)
+        +format_costs_for_display(exchange_rate)
+    }
+
+    class Person {
+        <<abstract>>
+        #transport_multiplier: float
+        #accommodation_multiplier: float
+        +calculate_transport_cost(base_cost)
+        +calculate_accommodation_cost(base_cost, discount)
+    }
+
+    class Adult {
+        +Adult()
+    }
+
+    class Child {
+        +Child()
+    }
+
+    class Family {
+        -name: string
+        -destination: Destination
+        -members: List[Person]
+        -num_adults: int
+        -num_children: int
+        -next_family: Family
+        +calculate_transportation_cost()
+        +calculate_accommodation_cost()
+        +calculate_total_cost()
+        +display_summary(exchange_rate)
+    }
+
+    class BookingSystem {
+        -destinations: Dict
+        -exchange_rate: float
+        -first_family: Family
+        -current_family: Family
+        +create_family(name, destination, adults, children)
+        +display_destinations()
+        +display_all_summaries()
+    }
+
+    Person <|-- Adult
+    Person <|-- Child
+    Family *-- Person
+    Family o-- Destination
+    Family --> Family
+    BookingSystem o-- Family
+    BookingSystem o-- Destination
