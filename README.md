@@ -47,7 +47,7 @@ The project consists of the following key components:
 ## UML Diagram
 The project follows an object-oriented design, which is illustrated in the UML diagram below:
 
-![SkyHigh Adventures Booking System UML Diagram](UML Diagram - Default.jpg)
+![SkyHigh Adventures Booking System UML Diagram](UML%20Diagram%20-%20Default.jpg)
 
 ## Contributing
 Contributions, bug reports, and feature requests are welcome. Please follow the standard GitHub workflow (fork, branch, commit, push, and pull request).
