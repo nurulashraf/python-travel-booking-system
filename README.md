@@ -13,7 +13,7 @@ This is a Python-based booking system for SkyHigh Adventures, a travel agency of
 ## Getting Started
 
 ### Prerequisites
-- Python 3.7 or higher
+- Python 3.6 or higher
 
 ### Installation
 1. Clone the repository:
