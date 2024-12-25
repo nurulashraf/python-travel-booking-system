@@ -1,7 +1,7 @@
 # SkyHigh Adventures Booking System
 
 ## Overview
-This is a Python-based booking system for SkyHigh Adventures, a travel agency offering packages to popular destinations. The system allows users to manage bookings for multiple families, calculate costs based on various factors, and display a summary of all bookings.
+This is a Python-based booking system for SkyHigh Adventures, a travel agency offering packages to popular destinations. The system allows users to manage bookings for multiple families, calculate costs based on various factors, and display a summary of all bookings. These solutions are part of a university assignment focused on applying fundamental programming concepts.
 
 ## Features
 - Object-Oriented Design
@@ -18,11 +18,11 @@ This is a Python-based booking system for SkyHigh Adventures, a travel agency of
 ### Installation
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/skyhigh-adventures-booking.git
+   git clone https://github.com/your-username/travel-booking-system.git
    ```
 2. Change to the project directory:
    ```
-   cd skyhigh-adventures-booking
+   cd travel-booking-system
    ```
 3. Run the booking system:
    ```
