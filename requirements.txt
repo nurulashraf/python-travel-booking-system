@@ -1,0 +1,2 @@
+# Python version used for development
+python>=3.6
