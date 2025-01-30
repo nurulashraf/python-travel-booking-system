@@ -18,11 +18,11 @@ This is a Python-based booking system for SkyHigh Adventures, a travel agency of
 ### Installation
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/travel-booking-system.git
+   git clone https://github.com/your-username/python-travel-booking-system.git
    ```
 2. Change to the project directory:
    ```
-   cd travel-booking-system
+   cd python-travel-booking-system
    ```
 3. Run the booking system:
    ```
